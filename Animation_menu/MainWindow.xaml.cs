@@ -24,5 +24,10 @@ namespace Animation_menu
         {
             InitializeComponent();
         }
+
+        private void Start_menu_Click()
+        {
+
+        }
     }
 }
