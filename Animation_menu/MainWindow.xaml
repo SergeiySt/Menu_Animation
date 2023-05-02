@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="262,55,0,0" VerticalAlignment="Top"/>
-        <StackPanel Margin="0,0,676,0" Width="NaN" Background="#FFC0D07D"/>
-
+        <Button Content="Button" HorizontalAlignment="Left" Margin="129,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.258,-0.458" Width="109"/>
+        <StackPanel Margin="0,0,676,0" Width="NaN" Background="#FFC0D07D">
+            <Button Content="Button" Height="53"/>
+            <Button Content="Button" Height="53"/>
+            <Button Content="Button" Height="53"/>
+        </StackPanel>
     </Grid>
 </Window>
