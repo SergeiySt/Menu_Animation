@@ -6,12 +6,169 @@
         xmlns:local="clr-namespace:Animation_menu"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="129,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.258,-0.458" Width="109"/>
-        <StackPanel Margin="0,0,676,0" Width="NaN" Background="#FFC0D07D">
-            <Button Content="Button" Height="53"/>
-            <Button Content="Button" Height="53"/>
-            <Button Content="Button" Height="53"/>
+    <DockPanel>
+        <StackPanel x:Name="MenuPanel" DockPanel.Dock="Left" Background="#FF777B70" Width="0">
+            <Grid>
+                <Grid.Background>
+                    <ImageBrush/>
+                </Grid.Background>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0">
+                    <Button Height="49" BorderBrush="Transparent" Foreground="White" FontSize="14">
+                        <Button.Background>
+                            <SolidColorBrush x:Name="BackgroundBrush" Color="#FF777B70"/>
+                        </Button.Background>
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Picture/icons8-menu-32.png" Height="24" Margin="0,0,10,0"/>
+                                    <TextBlock Text="Головна" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Trigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FFA6DE43" Duration="0:0:0.1" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.EnterActions>
+                                        <Trigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FF777B70" Duration="0:0:0.2" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.ExitActions>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button Height="49" BorderBrush="Transparent" Foreground="White" FontSize="14">
+                        <Button.Background>
+                            <SolidColorBrush x:Name="BackgroundBrush3" Color="#FF777B70"/>
+                        </Button.Background>
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Picture/icons8-users-32.png" Height="24" Margin="0,0,10,0"/>
+                                    <TextBlock Text="Користувачі" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Trigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FFA6DE43" Duration="0:0:0.1" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.EnterActions>
+                                        <Trigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FF777B70" Duration="0:0:0.2" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.ExitActions>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button Height="49" BorderBrush="Transparent" Foreground="White" FontSize="14">
+                        <Button.Background>
+                            <SolidColorBrush x:Name="BackgroundBrush4" Color="#FF777B70"/>
+                        </Button.Background>
+                        <Button.ContentTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/Picture/icons8-users-32.png" Height="24" Margin="0,0,10,0"/>
+                                    <TextBlock Text="Youtube" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </Button.ContentTemplate>
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Trigger.EnterActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FFA6DE43" Duration="0:0:0.1" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.EnterActions>
+                                        <Trigger.ExitActions>
+                                            <BeginStoryboard>
+                                                <Storyboard>
+                                                    <ColorAnimation To="#FF777B70" Duration="0:0:0.2" Storyboard.TargetProperty="(Control.Background).(SolidColorBrush.Color)"/>
+                                                </Storyboard>
+                                            </BeginStoryboard>
+                                        </Trigger.ExitActions>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+
+
+
+                </StackPanel>
+                <Button Grid.Row="1" Height="49" Margin="0,138,0,0" VerticalAlignment="Top" BorderBrush="Transparent" Foreground="White" FontSize="14">
+                    <Button.Background>
+                        <SolidColorBrush x:Name="BackgroundBrush2" Color="#FF777B70"/>
+                    </Button.Background>
+                    <Button.ContentTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/Picture/icons8-vopros.png" Height="24" Margin="0,0,10,0"/>
+                                <TextBlock Text="Про програму" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </Button.ContentTemplate>
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimation To="#FFA6DE43" Duration="0:0:0.1" Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"/>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ColorAnimation To="#FF777B70" Duration="0:0:0.2" Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"/>
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
         </StackPanel>
-    </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="&gt;" Click="ToggleMenu" FontWeight="Bold" FontSize="14" Background="#FF4B73ED" />
+        </Grid>
+    </DockPanel>
 </Window>

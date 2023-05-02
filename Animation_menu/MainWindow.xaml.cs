@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -25,9 +26,14 @@ namespace Animation_menu
             InitializeComponent();
         }
 
-        private void Start_menu_Click()
+    
+        private void ToggleMenu(object sender, RoutedEventArgs e)
         {
-
+            DoubleAnimation animation = new DoubleAnimation();
+            animation.From = MenuPanel.ActualWidth;
+            animation.To = MenuPanel.ActualWidth == 0 ? 200 : 0;
+            animation.Duration = TimeSpan.FromSeconds(0.5);
+            MenuPanel.BeginAnimation(Border.WidthProperty, animation);
         }
     }
 }

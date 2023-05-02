@@ -1,0 +1,16 @@
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\bin\Debug\Animation_menu.exe.config
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\bin\Debug\Animation_menu.exe
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\bin\Debug\Animation_menu.pdb
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.csproj.AssemblyReference.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.csproj.SuggestedBindingRedirects.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\MainWindow.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\App.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu_MarkupCompile.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu_MarkupCompile.lref
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\MainWindow.baml
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.g.resources
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.Properties.Resources.resources
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.csproj.GenerateResource.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.csproj.CoreCompileInputs.cache
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.exe
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.pdb
