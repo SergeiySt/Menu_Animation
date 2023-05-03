@@ -14,3 +14,5 @@ D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\A
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.csproj.CoreCompileInputs.cache
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.exe
 D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Animation_menu.pdb
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Window1.g.cs
+D:\ДЗ_Шаг\Windows Forms C#\GitHub\Menu_Animation\Animation_menu\obj\Debug\Window1.baml
