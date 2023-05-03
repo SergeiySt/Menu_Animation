@@ -35,5 +35,32 @@ namespace Animation_menu
             animation.Duration = TimeSpan.FromSeconds(0.5);
             MenuPanel.BeginAnimation(Border.WidthProperty, animation);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //Window1 window1 = new Window1();
+            //window1.Show();
+            //Button button = (Button)sender;
+            //button.Style = (Style)button.FindResource(typeof(Button));
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //Button button = (Button)sender;
+            //button.Style = (Style)button.FindResource(typeof(Button));
+            
+        }
+
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MessageBox.Show("Heloo!!!!", "111", MessageBoxButton.OK);
+        //}
     }
 }
