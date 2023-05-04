@@ -26,7 +26,7 @@ namespace Animation_menu
             InitializeComponent();
         }
 
-    
+
         private void ToggleMenu(object sender, RoutedEventArgs e)
         {
             DoubleAnimation animation = new DoubleAnimation();
@@ -36,31 +36,28 @@ namespace Animation_menu
             MenuPanel.BeginAnimation(Border.WidthProperty, animation);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void buttonHelp_Click(object sender, RoutedEventArgs e)
         {
-            //Window1 window1 = new Window1();
-            //window1.Show();
-            //Button button = (Button)sender;
-            //button.Style = (Style)button.FindResource(typeof(Button));
+            WPFHelp wPFHelp = new WPFHelp();
 
+            DoubleAnimation animation = new DoubleAnimation();
+            animation.From = 0;
+            animation.To = 1;
+            animation.Duration = TimeSpan.FromMilliseconds(500);
+
+            Storyboard storyboard = new Storyboard();
+            storyboard.Children.Add(animation);
+            Storyboard.SetTarget(animation, wPFHelp);
+            Storyboard.SetTargetProperty(animation, new PropertyPath(UIElement.OpacityProperty));
+
+            wPFHelp.Opacity = 0;
+            wPFHelp.Show();
+
+            storyboard.Begin();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            Window1 window1 = new Window1();
-            window1.Show();
         }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            //Button button = (Button)sender;
-            //button.Style = (Style)button.FindResource(typeof(Button));
-            
-        }
-
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
-        //    MessageBox.Show("Heloo!!!!", "111", MessageBoxButton.OK);
-        //}
     }
 }
